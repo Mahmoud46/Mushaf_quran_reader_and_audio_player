@@ -1,1 +1,1 @@
-# Mushaf_quran_reader_and_audio_player
+## Mushaf quran reader and audio player
