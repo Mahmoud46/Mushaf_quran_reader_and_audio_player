@@ -1,3 +1,6 @@
-<p align="center"><a href="https://mahmoud46.github.io/Mushaf_quran_reader_and_audio_player/"><img src="https://raw.githubusercontent.com/Mahmoud46/Mushaf_quran_reader_and_audio_player/1abded9c101e94b316aca4423b289c7ddd637f72/imgs/fav-icon.svg" width="100px"></a></p>
-<h1 align="center">Mushaf</h1>
-<h3 align="center">Quran audio player with reading feature in both Arabic and it's translation in English</h3>
+<p align="center"><img src="https://github.com/user-attachments/assets/24697d32-eea1-44cb-9d96-596139ca8b5b" width="220"></p>
+<h1 align="center">Qur'an Audio Player</h1>
+<h1>Overview</h1>
+<p>This application enables users to listen to Qur'an audio while reading along, and it also provides English transcriptions for those who do not speak Arabic.</p>
+<h1>Note</h1>
+<p>Experience the full potential of the simulation with the <a href="">interactive demo</a>.</p>
