@@ -3,4 +3,4 @@
 <h1>Overview</h1>
 <p>This application enables users to listen to Qur'an audio while reading along, and it also provides English transcriptions for those who do not speak Arabic.</p>
 <h1>Note</h1>
-<p>Experience the full potential of the simulation with the <a href="">interactive demo</a>.</p>
+<p>Experience the full potential of the simulation with the <a href="https://mahmoud46.github.io/Qur-an-Audio-Player/">interactive demo</a>.</p>
