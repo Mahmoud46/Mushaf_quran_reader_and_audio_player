@@ -1,67 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0"
+		/>
+		<link rel="stylesheet" href="./static/css/style.css" />
+		<link
+			rel="shortcut icon"
+			href="./static/imgs/fav-icon.svg"
+			type="image/x-icon"
+		/>
+		<title>Mushaf</title>
+	</head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="shortcut icon" href="./imgs/fav-icon.svg" type="image/x-icon">
-    <title>Mushaf</title>
-</head>
+	<body>
+		<div class="container">
+			<h1 class="logo">
+				<img src="./static/imgs/main-logo.svg" width="150px" alt="" />
+			</h1>
+			<p class="suhra-name">سُورَةُ ٱلْفَاتِحَةِ</p>
+			<p class="bsm">
+				<img src="./static/imgs/svgexport-13.svg" width="250px" alt="" />
+			</p>
+			<span class="material-symbols-outlined menu"> menu </span>
+			<div class="surahs-menu">
+				<div class="head">
+					<span class="material-symbols-outlined"> menu_book </span
+					><span>الفِهْرِسُ</span>
+				</div>
+				<div class="surahs-names"></div>
+			</div>
+			<div class="surah-ayahs"></div>
+			<div class="audio-player">
+				<audio src="./static/audio/001.mp3" preload="metadata"></audio>
+				<input type="range" />
+				<div class="duration-time">
+					<span>00:00:00</span>
+					<span></span>
+				</div>
+				<div class="controls">
+					<span class="material-symbols-outlined shuffle"> shuffle </span>
+					<span class="material-symbols-outlined prev"> skip_previous </span>
+					<span class="material-symbols-outlined play-pause"> play_arrow </span>
+					<span class="material-symbols-outlined next"> skip_next </span>
+					<span class="material-symbols-outlined repeat"> repeat </span>
+				</div>
+			</div>
+			<div class="layout"></div>
+		</div>
 
-<body>
-    <div class="container">
-        <h1 class="logo"><img src="./imgs/main-logo.svg" width="150px" alt=""></h1>
-        <p class="suhra-name">سُورَةُ ٱلْفَاتِحَةِ</p>
-        <p class="bsm"><img src="./imgs/svgexport-13.svg" width="250px" alt=""></p>
-        <span class="material-symbols-outlined menu">
-            menu
-        </span>
-        <div class="surahs-menu">
-            <div class="head">
-                <span class="material-symbols-outlined">
-                    menu_book
-                </span><span>الفِهْرِسُ</span>
-            </div>
-            <div class="surahs-names">
-            </div>
-        </div>
-        <div class="surah-ayahs">
-        </div>
-        <div class="audio-player">
-            <audio src="./audio/001.mp3" preload="metadata"></audio>
-            <input type="range">
-            <div class="duration-time">
-                <span>00:00:00</span>
-                <span></span>
-            </div>
-            <div class="controls">
-                <span class="material-symbols-outlined shuffle">
-                    shuffle
-                </span>
-                <span class="material-symbols-outlined prev">
-                    skip_previous
-                </span>
-                <span class="material-symbols-outlined play-pause">
-                    play_arrow
-                </span>
-                <span class="material-symbols-outlined next">
-                    skip_next
-                </span>
-                <span class="material-symbols-outlined repeat">
-                    repeat
-                </span>
-            </div>
-        </div>
-        <div class="layout"></div>
-    </div>
-
-    <script src="./js/ar_mushaf.js"></script>
-    <script src="./js/en_mushaf.js"></script>
-    <script src="./js/audio.js"></script>
-    <script src="./js/script.js"></script>
-</body>
-
+		<script src="./static/js/ar_mushaf.js"></script>
+		<script src="./static/js/en_mushaf.js"></script>
+		<script src="./static/js/audio.js"></script>
+		<script src="./static/js/script.js"></script>
+	</body>
 </html>
